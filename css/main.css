@@ -95,8 +95,64 @@ body {
     text-decoration: none;
 }
 
+/* Tour: Sistema Solar (tour-sistema-solar.html) */
+#back-btn a {
+    color: #d66e21;
+    font-size: 110%;
+    transition: .3s;
+}
 
+#back-btn a:hover {
+    color: #dddcf7;
+    text-decoration: none;
+}
 
+#hero-ss {
+    width: 100%;
+    min-height: 660px;
+    background-image: url(../img/Sistema-Solar/Hero-SS.svg);
+    background-size: cover;
+    background-position: center bottom;
+    
+    padding: 50px;
+    padding-top: 80px;
+    text-align: center;
+}
+
+.planet-link {
+    color: #dddcf7;
+}
+
+.planet-link:hover, planet-link:focus {
+    color: #dddcf7;
+    text-decoration: none;
+}
+
+.planet-card {
+    z-index: 1;
+    padding: 15px;
+    border-radius: 25px;
+    transition-duration: .5s;
+    opacity: .8;
+    text-align: center;
+}
+
+@media (max-width: 1000px) {
+    .planet-card {
+        opacity: 1;
+    }
+}
+
+.planet-card:hover {
+    z-index: 2;
+    transform: scale(1.05);
+    -webkit-box-shadow: 0px 0px 40px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 0px 40px 0px rgba(0,0,0,0.75);
+    box-shadow: 0px 0px 40px 0px rgba(0,0,0,0.75);
+    background-color: rgba(256,256,256,.05);
+    opacity: 1;
+    cursor: pointer;
+}
 
 
 
