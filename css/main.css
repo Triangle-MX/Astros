@@ -95,6 +95,48 @@ body {
     text-decoration: none;
 }
 
+/* Modal */
+
+.modal-backdrop {
+    background-color: rgba(256,256,256,0);
+}
+
+.modal-content {
+    background-color: #000015;
+}
+
+.modal-body {
+    padding: 20px;
+}
+
+.modal-footer, .modal-header {
+    border-color: #dddcf7;
+}
+
+.close {
+    color: #dddcf7;
+    opacity: 1;
+    transition-duration: .1s;
+    font-size: 21px;
+}
+
+.close:hover {
+    color: #d66e21;
+    border: 0px;
+    opacity: 1;
+    text-shadow: 0 0px 0;
+    
+}
+
+.modal-planet-header {
+    text-align: center;
+}
+
+.modal-planet-img {
+    display: inline-block;
+}
+
+
 /* Tour: Sistema Solar (tour-sistema-solar.html) */
 #back-btn a {
     color: #d66e21;
@@ -104,7 +146,7 @@ body {
 
 #back-btn a:hover {
     color: #dddcf7;
-    text-decoration: none;
+    text-decoration: none;4
 }
 
 #hero-ss {
