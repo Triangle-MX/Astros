@@ -109,8 +109,12 @@ body {
     padding: 20px;
 }
 
-.modal-footer, .modal-header {
+.modal-footer {
     border-color: #dddcf7;
+}
+
+.modal-header {
+    border-color: rgba(0,0,0,0);
 }
 
 .close {
@@ -137,7 +141,7 @@ body {
 }
 
 
-/* Tour: Sistema Solar (tour-sistema-solar.html) */
+/* Tour: Sistema Solar (tour-sistema-solar.html) | Alpha Centauri (tour-alpha-centauri.html) */
 #back-btn a {
     color: #d66e21;
     font-size: 110%;
@@ -153,6 +157,18 @@ body {
     width: 100%;
     min-height: 660px;
     background-image: url(../img/Sistema-Solar/Hero-SS.svg);
+    background-size: cover;
+    background-position: center bottom;
+    
+    padding: 50px;
+    padding-top: 80px;
+    text-align: center;
+}
+
+#hero-ac {
+    width: 100%;
+    min-height: 660px;
+    background-image: url(../img/Alpha-Centauri/Hero-AC.svg);
     background-size: cover;
     background-position: center bottom;
     
@@ -196,7 +212,20 @@ body {
     cursor: pointer;
 }
 
+#anim-ss {
+    margin: 0 auto;
+    text-align: center;
+}
 
+#anim-ss iframe {
+    display: inline-block;
+} 
+
+@media (max-width: 660px) {
+    #anim-ss iframe{
+        display: none;
+    }
+}
 
 
 /* Footer */
