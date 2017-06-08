@@ -38,13 +38,13 @@ body {
 /* Hero */
 #hero {
     width: 100%;
-    min-height: 660px;
+    min-height: 700px;
     background-image: url(../img/Hero.svg);
     background-size: cover;
     background-position: center bottom;
     
     padding: 50px;
-    padding-top: 50px;
+    padding-top: 40px;
     text-align: center;
 }
 
