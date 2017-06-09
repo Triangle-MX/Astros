@@ -450,9 +450,10 @@ body {
 
 /* Footer */
 footer a, footer a:visited {
-    color: #d66e21;
+    color: #d66e21 !important;
     transition-duration: .3s;
     text-decoration: none;
+    cursor: pointer;
 }
 
 footer a:hover {

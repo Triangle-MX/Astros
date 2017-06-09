@@ -83,11 +83,89 @@
       <footer>
         <div class="row">
             <div class="col-md-6">
-                <p>Parte del proyecto <a href="http://shark.cedros.xyz/test" target="_blank">Shark</a> | Desarrollado por <a href="https://triangle.mx">Triangle</a>.</p>
+                <p>Parte del proyecto <a href="http://shark.cedros.xyz/test" target="_blank">Shark</a> | Desarrollado por <a href="https://triangle.mx">Triangle</a> | <a data-toggle="modal" data-target="#creditos-modal">Créditos</a></p>
             </div>
             <div class="col-md-6" style="text-align: right">
-                <a href="" disabled>Daltónicos</a>
+                <p><a data-toggle="modal" data-target="#daltonismo-modal">Nuestro Compromiso con el Daltonismo</a> | <a href="javascript:(function(){var s=document.getElementById(&quot;colourblind-styling&quot;);var x=document.getElementById(&quot;colourblind-filters&quot;);if(!s){s=document.createElement(&quot;style&quot;);document.body.appendChild(s)}if(!x){x=document.createElement(&quot;div&quot;);x.setAttribute(&quot;style&quot;,&quot;height: 0; padding: 0; margin: 0; line-height: 0;&quot;);x.innerHTML=&#39;&lt;svg id=&quot;colorblind-filters&quot; style=&quot;display: none&quot;&gt; &lt;defs&gt; &lt;filter id=&quot;protanopia&quot;&gt; &lt;feColorMatrix type=&quot;matrix&quot; values=&quot;0.567,0.433,0,0,0 0.558,0.442,0,0,0 0 0.242,0.758,0,0 0,0,0,1,0&quot; in=&quot;SourceGraphic&quot; /&gt; &lt;/filter&gt; &lt;filter id=&quot;protanomaly&quot;&gt; &lt;feColorMatrix type=&quot;matrix&quot; values=&quot;0.817,0.183,0,0,0 0.333,0.667,0,0,0 0,0.125,0.875,0,0 0,0,0,1,0&quot; in=&quot;SourceGraphic&quot; /&gt; &lt;/filter&gt; &lt;filter id=&quot;deuteranopia&quot;&gt; &lt;feColorMatrix type=&quot;matrix&quot; values=&quot;0.625,0.375,0,0,0 0.7,0.3,0,0,0 0,0.3,0.7,0,0 0,0,0,1,0&quot; in=&quot;SourceGraphic&quot; /&gt; &lt;/filter&gt; &lt;filter id=&quot;deuteranomaly&quot;&gt; &lt;feColorMatrix type=&quot;matrix&quot; values=&quot;0.8,0.2,0,0,0 0.258,0.742,0,0,0 0,0.142,0.858,0,0 0,0,0,1,0&quot; in=&quot;SourceGraphic&quot; /&gt; &lt;/filter&gt; &lt;filter id=&quot;tritanopia&quot;&gt; &lt;feColorMatrix type=&quot;matrix&quot; values=&quot;0.95,0.05,0,0,0 0,0.433,0.567,0,0 0,0.475,0.525,0,0 0,0,0,1,0&quot; in=&quot;SourceGraphic&quot; /&gt; &lt;/filter&gt; &lt;filter id=&quot;tritanomaly&quot;&gt; &lt;feColorMatrix type=&quot;matrix&quot; values=&quot;0.967,0.033,0,0,0 0,0.733,0.267,0,0 0,0.183,0.817,0,0 0,0,0,1,0&quot; in=&quot;SourceGraphic&quot; /&gt; &lt;/filter&gt; &lt;filter id=&quot;achromatopsia&quot;&gt; &lt;feColorMatrix type=&quot;matrix&quot; values=&quot;0.299,0.587,0.114,0,0 0.299,0.587,0.114,0,0 0.299,0.587,0.114,0,0 0,0,0,1,0&quot; in=&quot;SourceGraphic&quot; /&gt; &lt;/filter&gt; &lt;filter id=&quot;achromatomaly&quot;&gt; &lt;feColorMatrix type=&quot;matrix&quot; values=&quot;0.618,0.320,0.062,0,0 0.163,0.775,0.062,0,0 0.163,0.320,0.516,0,0 0,0,0,1,0&quot; in=&quot;SourceGraphic&quot; /&gt; &lt;/filter&gt; &lt;/defs&gt; &lt;/svg&gt;&#39;;document.body.appendChild(x)}var l=[&quot;protanopia&quot;,&quot;protanomaly&quot;,&quot;deuteranopia&quot;,&quot;deuteranomaly&quot;,&quot;tritanopia&quot;,&quot;tritanomaly&quot;,&quot;achromatopsia&quot;,&quot;achromatomaly&quot;];var p=&quot;&quot;;for(var i in l)p+=parseInt(i)+1+&quot;: &quot;+l[i]+&quot;; &quot;;var c=parseInt(prompt(&quot;0: off; &quot;+p))-1;if(isNaN(c))return;if(c&gt;=l.length)return;if(c==-1){s.innerHTML=&quot;body{-webkit-filter:none;-moz-filter:none;-ms-filter:none;-o-filter:none;filter:none;}&quot;;return}c=l[c];if(document.getElementById(c))s.innerHTML=&quot;body{-webkit-filter:!!;-moz-filter:!!;-ms-filter:!!;-o-filter:!!;filter:!!;}&quot;.replace(/!!/g,&quot;url(#&quot;+c+&quot;)&quot;);else s.innerHTML=&quot;body{-webkit-filter:none;-moz-filter:none;-ms-filter:none;-o-filter:none;filter:none;}&quot;})();">Filtros para Daltonismo</a></p>
             </div>
+            
+            <!-- Modal Créditos -->
+<div class="modal fade" id="creditos-modal" tabindex="-1" role="dialog" aria-labelledby="Cometa Halley">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+        <h2 id="">Créditos</h2>
+      </div>
+      <div class="modal-body">
+        <div class="modal-planet-header">
+            <img src="img/Creditos.svg" class="modal-planet-img" width="200px;">
+        </div>
+        <br>
+        <p>
+        En un proyecto tan grande como Astros, una sola persona no puede hacer todo el trabajo.
+            <h3>Equipo Triangle</h3>
+            <p>
+            <ul>
+                <li>CEO - José Pablo Iglesias | Desarrollo de la Página</li>
+                <li>Diseñador - Máximo Sánchez | Diseño de la Página</li>
+                <li>CFO - Imanol Blix | Investigación </li>
+                <li>COO - Raul Zamudio | Investigación</li>
+                <li>COO - David Cortés | Investigación</li>
+                <li>CMO - David Suárez | Investigación</li>
+            </ul>
+            </p>
+            <h3>Profesores Involucrados</h3>
+            <p>
+            <ul>
+                <li>Prof. Carlos Fabila | Inversionista y Consultor de Información</li>
+                <li>Prof. Sergio Téllez | Líder del Proyecto Shark y Consultor de Programación</li>
+                <li>Prof. Eduardo Magaña | Consultor de Diseño</li>
+                <li>Prof. Federico Acosta | Consultor de Ortografía</li>
+            </ul>
+            </p>
+            <h3>Otros Créditos</h3>
+            <p>
+            <ul>
+                <li>Think Café | Tour Sistema Solar 360º</li>
+                <li>Flaticon | Iconos Tour Carrera Espacial</li>
+                <li>José Iglesias | Consultor de Información</li>
+                <li>Altreus | Apoyo con los Filtros para Daltonismo</li>
+            </ul>
+            </p>
+        </p>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-astros" data-dismiss="modal">Cerrar</button>
+      </div>
+    </div>
+  </div>
+</div>
+           
+<!-- Modal Daltonismo -->
+<div class="modal fade" id="daltonismo-modal" tabindex="-1" role="dialog" aria-labelledby="Cometa Halley">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+        <h2 id="">Nuestro Compromiso con el Daltonismo</h2>
+      </div>
+      <div class="modal-body">
+        <div class="modal-planet-header">
+            <img src="img/Creditos.svg" class="modal-planet-img" width="200px;">
+        </div>
+        <br>
+        <p>
+        El Daltonismo es un padecimiento que afecta al 8% de los hombres y .5% de las mujeres a nivel global. Por eso en Triangle hemos decidido combatirlo. En cada una de nuestras páginas en la equina inferior derecha podrás encontrar un botón que dirá "Filtros para Daltonismo".<br></br>Ya que no podemos curar el Daltonismo, en Triangle queremos ayudar a que todos los daltónicos puedan disfrutar de la red al igual que los demás de nosotros.
+        </p>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-astros" data-dismiss="modal">Cerrar</button>
+      </div>
+    </div>
+  </div>
+</div>
+            
         </div>
       </footer>
     </div> <!-- /container -->        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
